@@ -1,6 +1,6 @@
 import Header from './Header';
 import Footer from './Footer';
-import WhatsAppButton from '../ui/WhatsAppButton';
+import WhatsAppButton from '../Carousel, Hero, wpp y Info/WhatsAppButton';
 import './Layout.css';
 
 const Layout = ({ children }) => {

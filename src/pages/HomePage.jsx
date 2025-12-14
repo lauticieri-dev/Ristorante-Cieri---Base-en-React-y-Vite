@@ -1,5 +1,5 @@
-import HeroSection from '../components/ui/HeroSection';
-import InfoSection from '../components/ui/InfoSection';
+import HeroSection from '../components/Carousel, Hero, wpp y Info/HeroSection';
+import InfoSection from '../components/Carousel, Hero, wpp y Info/InfoSection';
 
 const HomePage = () => {
   return (

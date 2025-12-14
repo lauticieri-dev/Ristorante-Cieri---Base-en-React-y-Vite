@@ -1,5 +1,5 @@
-import ReservationForm from '../components/forms/ReservationForm';
-import Carousel from '../components/ui/Carousel';
+import ReservationForm from '../components/Form/ReservationForm';
+import Carousel from '../components/Carousel, Hero, wpp y Info/Carousel';
 
 const ReservationsPage = () => {
   return (

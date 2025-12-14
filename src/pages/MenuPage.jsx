@@ -1,4 +1,4 @@
-import MenuSection from '../components/menu/MenuSection';
+import MenuSection from '../components/Carta/MenuSection';
 import { menuData } from '../data/menuData';
 
 const MenuPage = () => {
