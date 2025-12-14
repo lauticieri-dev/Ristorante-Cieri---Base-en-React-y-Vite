@@ -1,0 +1,51 @@
+/* Menu Card Styles */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.food-section {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d4af37;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.card-row:last-child {
+  border-bottom: none;
+  justify-content: center;
+}
+
+.item-nombre {
+  font-weight: 500;
+}
+
+.item-precio {
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.img-food {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 1rem;
+}

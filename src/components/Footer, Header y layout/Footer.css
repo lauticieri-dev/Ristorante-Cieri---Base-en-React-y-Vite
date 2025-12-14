@@ -1,0 +1,52 @@
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem 0 1rem;
+}
+
+.footer-display {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.horario-titulo {
+  color: #d4af37;
+  margin-bottom: 1rem;
+}
+
+.horario-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.horario-lista li {
+  margin-bottom: 0.5rem;
+}
+
+iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #555;
+}
+
+@media (max-width: 768px) {
+  .footer-display {
+    grid-template-columns: 1fr;
+  }
+  
+  iframe {
+    height: 250px;
+  }
+}
