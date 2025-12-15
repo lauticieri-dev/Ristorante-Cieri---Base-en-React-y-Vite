@@ -6,31 +6,31 @@ const Carousel = () => {
   
   const slides = [
     {
-      image: '/images/reservas/Cocinero italiano.png',
+      image: './images/reservas/Cocinero italiano.png',
       alt: 'Cocinero italiano preparando pasta fresca'
     },
     {
-      image: '/images/reservas/Mesera.png',
+      image: './images/reservas/Mesera.png',
       alt: 'Nuestro excelente servicio al cliente'
     },
     {
-      image: '/images/reservas/Bartender italiano.png',
+      image: './images/reservas/Bartender italiano.png',
       alt: 'Bartender preparando cócteles italianos'
     },
     {
-      image: '/images/reservas/Pizza napolitana.png',
+      image: './images/reservas/Pizza napolitana.png',
       alt: 'Auténtica pizza napolitana'
     },
     {
-      image: '/images/reservas/Spaghetti.jpg',
+      image: './images/reservas/Spaghetti.jpg',
       alt: 'Deliciosos spaghetti caseros'
     },
     {
-      image: '/images/reservas/Carpaccio.png',
+      image: './images/reservas/Carpaccio.png',
       alt: 'Carpaccio de res fresco'
     },
     {
-      image: '/images/reservas/Lasaña.png',
+      image: './images/reservas/Lasaña.png',
       alt: 'Lasaña tradicional italiana'
     }
   ];
