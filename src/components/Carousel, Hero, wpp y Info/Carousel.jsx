@@ -16,13 +16,29 @@ const Carousel = () => {
     {
       image: '/images/reservas/Bartender italiano.png',
       alt: 'Bartender preparando cócteles italianos'
+    },
+    {
+      image: '/images/reservas/Pizza napolitana.png',
+      alt: 'Auténtica pizza napolitana'
+    },
+    {
+      image: '/images/reservas/Spaghetti.jpg',
+      alt: 'Deliciosos spaghetti caseros'
+    },
+    {
+      image: '/images/reservas/Carpaccio.png',
+      alt: 'Carpaccio de res fresco'
+    },
+    {
+      image: '/images/reservas/Lasaña.png',
+      alt: 'Lasaña tradicional italiana'
     }
   ];
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
+    }, 6000); // 6 segundos en lugar de 5
 
     return () => clearInterval(timer);
   }, [slides.length]);
