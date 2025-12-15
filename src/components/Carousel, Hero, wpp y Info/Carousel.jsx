@@ -22,10 +22,6 @@ const Carousel = () => {
       alt: 'Auténtica pizza napolitana'
     },
     {
-      image: './images/reservas/Spaghetti.jpg',
-      alt: 'Deliciosos spaghetti caseros'
-    },
-    {
       image: './images/reservas/Carpaccio.png',
       alt: 'Carpaccio de res fresco'
     },
