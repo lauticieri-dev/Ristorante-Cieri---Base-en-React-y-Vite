@@ -6,27 +6,27 @@ const Carousel = () => {
   
   const slides = [
     {
-      image: './images/reservas/Cocinero italiano.png',
+      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Cocinero italiano.png',
       alt: 'Cocinero italiano preparando pasta fresca'
     },
     {
-      image: './images/reservas/Mesera.png',
+      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Mesera.png',
       alt: 'Nuestro excelente servicio al cliente'
     },
     {
-      image: './images/reservas/Bartender italiano.png',
+      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Bartender italiano.png',
       alt: 'Bartender preparando cócteles italianos'
     },
     {
-      image: './images/reservas/Pizza napolitana.png',
+      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Pizza napolitana.png',
       alt: 'Auténtica pizza napolitana'
     },
     {
-      image: './images/reservas/Carpaccio.png',
+      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Carpaccio.png',
       alt: 'Carpaccio de res fresco'
     },
     {
-      image: './images/reservas/Lasaña.png',
+      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Lasaña.png',
       alt: 'Lasaña tradicional italiana'
     }
   ];
