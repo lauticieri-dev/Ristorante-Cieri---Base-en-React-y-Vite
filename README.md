@@ -1,5 +1,7 @@
-Ristorante Cieri - En base React
+Buenas tardes/noches/días, en esta Readme,md se encuentran instrucciones de como está organizado del programa y funcionalidad mas unos detalles
 
-Este proyecto corre la misma base que el anterior Ristorante Cieri pero poniendo a prueba y optimizando en base React y Vite
+Este proyecto como su nombre lo menciona es mi antiguo proyecto con base en React y Vite que brinda mayor velocidad, efectividad y organización. El deploy fue realizado en Github Pages pero realizado con Github actions ya que desde la branch me genera fallas y no carga la página ni muestra contenido, de hecho hay código para arreglar fallas del deploy ya que tuvo fallas en eso. Los HTML Index.html y 404.html son soluciones a fallas de rutas y redireccionamientos en los que github pages no carga el contenido de la página
 
-La finalidad es componentizar y masterizar nuevas tecnologías permitiendo mayor funcionalidad, organización y profesionalismo
+La mayoría de assets, components y páginas se encuentran en /src, en esa carpeta se encuentran, components, hook y pages y las images están en /public junto con 404.html
+
+la página está en: https://lauticieri-dev.github.io/Ristorante-Cieri---Base-en-React-y-Vite/
