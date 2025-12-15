@@ -22,3 +22,4 @@ function App() {
 }
 
 export default App;
+// Enrutamiento con HashRouter para compatibilidad con GitHub Pages

@@ -1,4 +1,4 @@
-/* Carousel Styles */
+/* Carousel CSS */
 .carousel-section {
   margin: 2rem 0;
   padding: 0 1rem;
@@ -90,6 +90,8 @@
 .indicator:hover {
   background: rgba(255, 255, 255, 0.8);
 }
+
+/* diseño responsive del carousel */
 
 @media (max-width: 768px) {
   .carousel-section {

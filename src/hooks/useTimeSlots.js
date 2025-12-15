@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { timeSlots } from '../data/timeSlots';
-
+// Hook para los horarios de reserva según la fecha seleccionada
 export const useTimeSlots = (selectedDate) => {
   const [availableSlots, setAvailableSlots] = useState(timeSlots.default);
 

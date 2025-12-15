@@ -1,6 +1,7 @@
 export const menuData = {
   platos: [
     {
+      // Menú completo según categorías
       id: 1,
       category: "Pizzas",
       image: "/images/carta/pizza.jpg",

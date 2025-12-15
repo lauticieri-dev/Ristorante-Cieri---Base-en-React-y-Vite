@@ -34,11 +34,11 @@ const Carousel = () => {
       alt: 'Lasaña tradicional italiana'
     }
   ];
-
+// Parámetros añadidos para el carrusel, auto slide 6 secs, botones next y prev y indicadores
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 6000); // 6 segundos en lugar de 5
+    }, 6000); 
 
     return () => clearInterval(timer);
   }, [slides.length]);
