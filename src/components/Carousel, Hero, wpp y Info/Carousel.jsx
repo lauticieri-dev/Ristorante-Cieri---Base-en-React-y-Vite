@@ -6,7 +6,7 @@ const Carousel = () => {
   
   const slides = [
     {
-      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Cocinero italiano.png',
+      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Cocinero%20italiano.png',
       alt: 'Cocinero italiano preparando pasta fresca'
     },
     {
@@ -14,11 +14,11 @@ const Carousel = () => {
       alt: 'Nuestro excelente servicio al cliente'
     },
     {
-      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Bartender italiano.png',
+      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Bartender%20italiano.png',
       alt: 'Bartender preparando cócteles italianos'
     },
     {
-      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Pizza napolitana.png',
+      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Pizza%20napolitana.png',
       alt: 'Auténtica pizza napolitana'
     },
     {
@@ -26,7 +26,7 @@ const Carousel = () => {
       alt: 'Carpaccio de res fresco'
     },
     {
-      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Lasaña.png',
+      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Lasa%C3%B1a.png',
       alt: 'Lasaña tradicional italiana'
     }
   ];
@@ -60,7 +60,15 @@ const Carousel = () => {
         >
           {slides.map((slide, index) => (
             <div key={index} className="carousel-item">
-              <img src={slide.image} alt={slide.alt} />
+              <img 
+                src={slide.image} 
+                alt={slide.alt}
+                onError={(e) => {
+                  console.log('Error loading image:', slide.image);
+                  e.target.style.background = '#ccc';
+                  e.target.alt = 'Imagen no disponible';
+                }}
+              />
             </div>
           ))}
         </div>
