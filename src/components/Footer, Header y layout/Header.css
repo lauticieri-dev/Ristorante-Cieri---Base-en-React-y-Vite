@@ -1,13 +1,15 @@
-/* Header Styles */
+/* Header CSS */
 .navbar {
   position: fixed;
   top: 0;
   width: 100vw;
   left: 0;
   z-index: 1000;
-  background: #118549;
-  background: linear-gradient(90deg, rgba(17, 133, 73, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(196, 39, 39, 1) 100%);
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
 }
 
 .header {

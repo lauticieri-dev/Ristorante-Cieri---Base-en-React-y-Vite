@@ -6,28 +6,32 @@ const Carousel = () => {
   
   const slides = [
     {
-      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Cocinero%20italiano.png',
+      image: '/images/reservas/Cocinero italiano.png',
       alt: 'Cocinero italiano preparando pasta fresca'
     },
     {
-      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Mesera.png',
+      image: '/images/reservas/Mesera.png',
       alt: 'Nuestro excelente servicio al cliente'
     },
     {
-      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Bartender%20italiano.png',
+      image: '/images/reservas/Bartender italiano.png',
       alt: 'Bartender preparando cócteles italianos'
     },
     {
-      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Pizza%20napolitana.png',
+      image: '/images/reservas/Pizza napolitana.png',
       alt: 'Auténtica pizza napolitana'
     },
     {
-      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Carpaccio.png',
+      image: '/images/reservas/Carpaccio.png',
       alt: 'Carpaccio de res fresco'
     },
     {
-      image: '/Ristorante-Cieri---Base-en-React-y-Vite/images/reservas/Lasa%C3%B1a.png',
+      image: '/images/reservas/Lasaña.png',
       alt: 'Lasaña tradicional italiana'
+    },
+    {
+      image: '/images/reservas/Spaghetti.jpg',
+      alt: 'Deliciosos espaguetis italianos'
     }
   ];
 // Parámetros añadidos para el carrusel, auto slide 6 secs, botones next y prev y indicadores
