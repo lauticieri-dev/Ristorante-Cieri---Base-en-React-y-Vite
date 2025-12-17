@@ -1,6 +1,8 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useMobileMenu } from '../../hooks/useMobileMenu';
 import './Header.css';
+import logoImg from '../../assets/images/inicio/logo.jpg';
+import instagramLogoImg from '../../assets/images/inicio/Instagram logo.png';
 
 const Header = () => {
   const { isMenuOpen, toggleMenu, closeMenu } = useMobileMenu();
@@ -17,7 +19,7 @@ const Header = () => {
     <div className="navbar">
       <header className="header">
         <Link to="/">
-          <img src="/images/inicio/logo.jpg" alt="Logo Ristorante Cieri" className="logo" />
+          <img src={logoImg} alt="Logo Ristorante Cieri" className="logo" />
         </Link>
         
         <ul className={`nav ${isMenuOpen ? 'nav-open' : ''}`} id="nav">
@@ -45,7 +47,7 @@ const Header = () => {
 
         <div className="social">
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <img src="/images/inicio/Instagram logo.png" alt="Logo Instagram" className="instagram" />
+            <img src={instagramLogoImg} alt="Logo Instagram" className="instagram" />
           </a>
         </div>
       </header>

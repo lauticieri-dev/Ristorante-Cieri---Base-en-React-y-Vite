@@ -1,10 +1,19 @@
+import pizzaImg from '../assets/images/carta/pizza.jpg';
+import carbonaraImg from '../assets/images/carta/carbonara.jpg';
+import bisteccaImg from '../assets/images/carta/Bistecca alla fiorentina.png';
+import bruschettaImg from '../assets/images/carta/Bruschetta.jpg';
+import malloredusImg from '../assets/images/carta/Malloredus.jpg';
+import amarettoImg from '../assets/images/carta/Amaretto.jpg';
+import genovesaImg from '../assets/images/carta/Genovesa.jpg';
+import sodaItalianaImg from '../assets/images/carta/soda italiana.jpg';
+
 export const menuData = {
   platos: [
     {
       // Menú completo según categorías
       id: 1,
       category: "Pizzas",
-      image: "/images/carta/pizza.jpg",
+      image: pizzaImg,
       items: [
         { name: "Pizza Margherita", price: "$15000" },
         { name: "Pizza Fungyi", price: "$17000" },
@@ -19,7 +28,7 @@ export const menuData = {
     {
       id: 2,
       category: "Pastas",
-      image: "/images/carta/carbonara.jpg",
+      image: carbonaraImg,
       items: [
         { name: "Pasta Carbonara", price: "$12000" },
         { name: "Pasta Bolognesa", price: "$13400" },
@@ -36,7 +45,7 @@ export const menuData = {
     {
       id: 3,
       category: "Carnes",
-      image: "/images/carta/Bistecca alla fiorentina.png",
+      image: bisteccaImg,
       items: [
         { name: "Bistecca alla Fiorentina", price: "$25000" },
         { name: "Osso Buco", price: "$22000" },
@@ -50,7 +59,7 @@ export const menuData = {
     {
       id: 4,
       category: "Antipasti",
-      image: "/images/carta/Bruschetta.jpg",
+      image: bruschettaImg,
       items: [
         { name: "Bruschetta", price: "$8000" },
         { name: "Antipasto Misto", price: "$12000" },
@@ -65,7 +74,7 @@ export const menuData = {
     {
       id: 5,
       category: "Risotti",
-      image: "/images/carta/Malloredus.jpg",
+      image: malloredusImg,
       items: [
         { name: "Risotto ai Funghi", price: "$16000" },
         { name: "Risotto alla Milanese", price: "$15500" },
@@ -79,7 +88,7 @@ export const menuData = {
     {
       id: 6,
       category: "Vinos Tintos",
-      image: "/images/carta/Amaretto.jpg",
+      image: amarettoImg,
       items: [
         { name: "Chianti Classico", price: "$12000" },
         { name: "Barolo", price: "$18000" },
@@ -91,7 +100,7 @@ export const menuData = {
     {
       id: 7,
       category: "Vinos Blancos",
-      image: "/images/carta/Genovesa.jpg",
+      image: genovesaImg,
       items: [
         { name: "Pinot Grigio", price: "$8500" },
         { name: "Soave", price: "$9000" },
@@ -103,7 +112,7 @@ export const menuData = {
     {
       id: 8,
       category: "Licores",
-      image: "/images/carta/Amaretto.jpg",
+      image: amarettoImg,
       items: [
         { name: "Amaretto", price: "$6000" },
         { name: "Limoncello", price: "$5500" },
@@ -115,7 +124,7 @@ export const menuData = {
     {
       id: 9,
       category: "Bebidas sin alcohol",
-      image: "/images/carta/soda italiana.jpg",
+      image: sodaItalianaImg,
       items: [
         { name: "Agua", price: "$2000" },
         { name: "Soda Italiana", price: "$3500" },
@@ -129,7 +138,7 @@ export const menuData = {
     {
       id: 10,
       category: "Dolci",
-      image: "/images/carta/Amaretto.jpg",
+      image: amarettoImg,
       items: [
         { name: "Tiramisú", price: "$7000" },
         { name: "Panna Cotta", price: "$6500" },

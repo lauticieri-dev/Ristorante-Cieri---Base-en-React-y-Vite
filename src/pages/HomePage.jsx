@@ -1,5 +1,6 @@
 import HeroSection from '../components/Carousel, Hero, wpp y Info/HeroSection';
 import InfoSection from '../components/Carousel, Hero, wpp y Info/InfoSection';
+import servicioImg from '../assets/images/inicio/Servicio óptimo.png';
 
 const HomePage = () => {
   return (
@@ -10,7 +11,7 @@ const HomePage = () => {
       />
       <InfoSection />
       <div className="servicio">
-        <img src="/images/inicio/Servicio óptimo.png" alt="Servicio óptimo" />
+        <img src={servicioImg} alt="Servicio óptimo" />
       </div>
     </>
   );

@@ -1,4 +1,5 @@
 import './WhatsAppButton.css';
+import whatsappLogoImg from '../../assets/images/inicio/logo whatsapp.png';
 
 const WhatsAppButton = () => {
   return (
@@ -9,7 +10,7 @@ const WhatsAppButton = () => {
       className="whatsapp-button"
     >
       <img 
-        src="/images/inicio/logo whatsapp.png" 
+        src={whatsappLogoImg} 
         alt="logo whatsapp" 
         className="whatsapp" 
       />

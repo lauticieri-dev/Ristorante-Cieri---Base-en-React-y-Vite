@@ -1,36 +1,44 @@
 import { useState, useEffect } from 'react';
 import './Carousel.css';
+import cocinerImg from '../../assets/images/reservas/Cocinero italiano.png';
+import meseraImg from '../../assets/images/reservas/Mesera.png';
+import bartenderImg from '../../assets/images/reservas/Bartender italiano.png';
+import pizzaImg from '../../assets/images/reservas/Pizza napolitana.png';
+import carpaccioImg from '../../assets/images/reservas/Carpaccio.png';
+import lasanaImg from '../../assets/images/reservas/Lasaña.png';
+import spaghettiImg from '../../assets/images/reservas/Spaghetti.jpg';
+import logoImg from '../../assets/images/inicio/logo.jpg';
 
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const slides = [
     {
-      image: '/images/reservas/Cocinero italiano.png',
+      image: cocinerImg,
       alt: 'Cocinero italiano preparando pasta fresca'
     },
     {
-      image: '/images/reservas/Mesera.png',
+      image: meseraImg,
       alt: 'Nuestro excelente servicio al cliente'
     },
     {
-      image: '/images/reservas/Bartender italiano.png',
+      image: bartenderImg,
       alt: 'Bartender preparando cócteles italianos'
     },
     {
-      image: '/images/reservas/Pizza napolitana.png',
+      image: pizzaImg,
       alt: 'Auténtica pizza napolitana'
     },
     {
-      image: '/images/reservas/Carpaccio.png',
+      image: carpaccioImg,
       alt: 'Carpaccio de res fresco'
     },
     {
-      image: '/images/reservas/Lasaña.png',
+      image: lasanaImg,
       alt: 'Lasaña tradicional italiana'
     },
     {
-      image: '/images/reservas/Spaghetti.jpg',
+      image: spaghettiImg,
       alt: 'Deliciosos espaguetis italianos'
     }
   ];
@@ -70,7 +78,7 @@ const Carousel = () => {
                 loading="lazy"
                 onError={(e) => {
                   console.log('Error loading image:', slide.image);
-                  e.target.src = '/images/inicio/logo.jpg';
+                  e.target.src = logoImg;
                   e.target.alt = 'Imagen no disponible';
                   e.target.style.objectFit = 'contain';
                   e.target.style.background = '#f0f0f0';
