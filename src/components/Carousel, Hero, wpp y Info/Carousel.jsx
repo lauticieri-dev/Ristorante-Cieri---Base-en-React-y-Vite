@@ -67,20 +67,33 @@ const Carousel = () => {
               <img 
                 src={slide.image} 
                 alt={slide.alt}
+                loading="lazy"
                 onError={(e) => {
                   console.log('Error loading image:', slide.image);
-                  e.target.style.background = '#ccc';
+                  e.target.src = '/images/inicio/logo.jpg';
                   e.target.alt = 'Imagen no disponible';
+                  e.target.style.objectFit = 'contain';
+                  e.target.style.background = '#f0f0f0';
                 }}
               />
             </div>
           ))}
         </div>
         
-        <button className="carousel-button prev" onClick={prevSlide}>
+        <button 
+          className="carousel-button prev" 
+          onClick={prevSlide}
+          aria-label="Imagen anterior"
+          type="button"
+        >
           &#8249;
         </button>
-        <button className="carousel-button next" onClick={nextSlide}>
+        <button 
+          className="carousel-button next" 
+          onClick={nextSlide}
+          aria-label="Imagen siguiente"
+          type="button"
+        >
           &#8250;
         </button>
         
@@ -90,6 +103,8 @@ const Carousel = () => {
               key={index}
               className={`indicator ${index === currentSlide ? 'active' : ''}`}
               onClick={() => goToSlide(index)}
+              aria-label={`Ir a imagen ${index + 1}`}
+              type="button"
             />
           ))}
         </div>
