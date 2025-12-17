@@ -1,15 +1,24 @@
-/* Header CSS */
+/* Header y NavBar CSS */
 .navbar {
   position: fixed;
   top: 0;
   width: 100vw;
   left: 0;
   z-index: 1000;
-  background: rgba(0, 0, 0, 0.85);
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    linear-gradient(90deg, 
+      #009246 0%, 
+      #009246 33.33%, 
+      #ffffff 33.33%, 
+      #ffffff 66.66%, 
+      #ce2b37 66.66%, 
+      #ce2b37 100%
+    );
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   box-shadow: 0 2px 15px rgba(0,0,0,0.4);
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
   border-bottom: 1px solid rgba(212, 175, 55, 0.3);
 }
 
