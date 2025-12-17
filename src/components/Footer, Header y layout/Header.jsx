@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useMobileMenu } from '../../hooks/useMobileMenu';
 import './Header.css';
 import logoImg from '../../assets/images/inicio/logo.jpg';
-import instagramLogoImg from '../../assets/images/inicio/Instagram logo.png';
+import instagramLogoImg from '../../assets/images/inicio/Logo IG.png';
 
 const Header = () => {
   const { isMenuOpen, toggleMenu, closeMenu } = useMobileMenu();
